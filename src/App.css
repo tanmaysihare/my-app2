@@ -1,0 +1,21 @@
+
+.MainBody{
+    width: auto;
+    height: auto;
+    background-color: black;
+    border: 5px solid red;
+    color: white;
+    margin: 25%;
+    margin-top: 0%;
+    margin-left: 30%;
+    padding: 5%;
+   
+}
+#h1{
+    text-align: center;
+}
+
+#ItemDisplay{
+  width: auto;
+  height: auto;
+}
