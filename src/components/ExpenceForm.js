@@ -4,32 +4,16 @@ function ExpenceForm(){
     const [enteredName, setEnteredName]= useState('');
     const [enteredAmount, setEnteredAmount]= useState('');
     const [enteredDate, setEnteredDate]= useState('');
-    // const [userInput , SetUserInput] = useState({
-    //     enteredName: '',
-    //     enteredAmount: '',
-    //     enteredDate: '',
-    // });
+
     const ExpenceNameChangeHandler = (event) =>{
        setEnteredName(event.target.value);
-    //    SetUserInput({
-    //     ...userInput,
-    //     enteredName: event.target.value,
-    //    });
-    };
+     };
     const AmountChangeHandler = (event) => {
         setEnteredAmount(event.target.value);
-        // SetUserInput({
-        //     ...userInput,
-        //     enteredAmount: event.target.value,
-        //    });
-    };
+        };
     const DateChangeHandler = (event) => {
         setEnteredDate(event.target.value);
-        // SetUserInput({
-        //     ...userInput,
-        //     enteredDate: event.target.value,
-        //    });
-    };
+          };
     const SubmitHandler = (event) => {
         event.preventDefault();
         const ExpenceData = {
