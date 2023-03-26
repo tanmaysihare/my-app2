@@ -1,7 +1,7 @@
 import Card from "../UI/Card";
 import React,{useState} from "react";
 import ExpenceDate from './ExpenceDate';
-import './ExpenceItem.css';
+import './ItemDisplay.css';
 function ExpanceDetails(props){
     const [expanceName , setExpenceName] = useState(props.expanceName);
     const [location , setLocation] = useState(props.location);

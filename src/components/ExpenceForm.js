@@ -17,9 +17,9 @@ function ExpenceForm(props){
     const SubmitHandler = (event) => {
         event.preventDefault();
         const ExpenceData = {
-            ExpenceName: enteredName,
-            ExpenceAmount: enteredAmount,
-            ExpenceDate: new Date(enteredDate)
+            expanceName: enteredName,
+            amount: enteredAmount,
+            date: new Date(enteredDate)
         };
         props.onSaveExpanceData(ExpenceData);
         setEnteredName('');
