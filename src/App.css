@@ -1,6 +1,6 @@
 
 .MainBody{
-    width: auto;
+    width: 640px;
     height: auto;
     background-color: black;
     border: 5px solid red;
@@ -12,6 +12,7 @@
    
 }
 #h1{
+  margin-top: 10px;
     text-align: center;
 }
 

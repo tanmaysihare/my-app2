@@ -14,6 +14,7 @@ function NewExpence(props){
     
    return (
         <div className="new-expense">
+            <h1 id='h1'>WELCOME TO JAVASCRIPT REACT</h1>
            <ExpenceForm onSaveExpanceData={saveExpenceDataHandler}/> 
         </div>
     );

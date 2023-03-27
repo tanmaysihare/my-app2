@@ -23,7 +23,7 @@ const App=() => {
   return (
     <Card>
       <div className="MainBody2">
-      <h1 id='h1'>WELCOME TO JAVASCRIPT REACT</h1>
+      
       <NewExpence onAddExpence={addExpenceHandler} />
       </div>
       <div className="MainBody">
