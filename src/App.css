@@ -1,16 +1,30 @@
 
+.app{
+  height: 1200px;
+  background-image: url('./thumb.png');
+}
 .MainBody{
     width: 640px;
     height: auto;
-    background-color: black;
+    background-color: rgba(27, 24, 24, 0.925);
     border: 5px solid red;
+    border-radius: 25px;
     color: white;
-    margin: 25%;
-    margin-top: 0%;
-    margin-left: 30%;
-    padding: 5%;
-   
+    margin-top: 5%;
+    margin-right: 90px;
+    padding: 1%;
+    float: right;
 }
+.MainBody1{
+  width: 640px;
+  height: auto;
+  color: white;
+  margin-top: 0%;
+  margin-left: 20px;
+  padding: 5%;
+  float: left;
+}
+
 #h1{
   margin-top: 10px;
     text-align: center;
