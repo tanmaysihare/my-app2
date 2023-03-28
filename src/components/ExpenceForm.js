@@ -53,6 +53,7 @@ function ExpenceForm(props){
                 </div>
             </div>
             <div className="new-expense__actions">
+                <button type='button' onClick={props.onCancel}>CANCEL</button>
                 <button type='submit'>ADD EXPENCE</button>
             </div>
 

@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import React,{useState} from 'react';
 import './App.css';
-import AddExpenceButton from './components/AddExpenceButton';
+import NewExpence from './components/NewExpence';
 import ItemDisplay from './components/Expences/ItemDisplay';
 
 
@@ -24,10 +24,14 @@ const App=() => {
 
   return (
     <div className="app">
-      
-      <AddExpenceButton onAddExpence={addExpenceHandler}/>
+      <div className="MainBody1">
+
+      <NewExpence onAddExpence={addExpenceHandler} />
+      </div>
       <div className="MainBody">
       <ItemDisplay items={expences}/>
+     
+     
       </div>
     </div>
   );
